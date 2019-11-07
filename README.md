@@ -1,5 +1,5 @@
 This program is a creative of the code in which the message will be repeat. So known every program start by fix the commands which will be executed by the computer. Also there's an attached picture of all the task.
-![code of repeat](code of repeat.png)
+
 to bebin with, while all tfhis work i'm working with four(4) fonctions which will allow the execution of this code.
 ```
 background(0,255,255);
@@ -12,3 +12,6 @@ for(int i=0; i<10; i++){
 }
 ```
 here's two last points of this program which is on the repetition of the text. So i used "for" so that to indicate the loop of the message below the sketch; Finally "println" is the fonction used in processing to dislay the text, it's constfitued of << "" () >>.
+
+
+![code of repeat](code-of-repeat.png)
