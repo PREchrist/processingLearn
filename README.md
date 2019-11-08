@@ -1,6 +1,6 @@
 # Homework Nov 8th
 
-![programofbigsquare](programofbigsquare.png)
+![programofbigsquare](programOfBigSquare.png)
 
 # Last JOurnal
 
@@ -21,3 +21,4 @@ circle(100,75,75);
 here i combined the functions fill and circle to fix the circle at the corner of my rectangle.
 
 programOfBigSquare
+
