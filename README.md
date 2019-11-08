@@ -1,6 +1,6 @@
 # Homework Nov 8th
 
-
+![programofbigsquare](programofbigsquare.png)
 
 # Last JOurnal
 
