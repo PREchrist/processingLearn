@@ -54,3 +54,5 @@ for(int i=0;i<2;i++){
   rect(300+50*i,200,50,50);
 }
 ```
+## Traffic Light
+![traffic-light](traffic-light.png)
