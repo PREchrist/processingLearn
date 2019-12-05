@@ -39,3 +39,5 @@ changed.
   To be done, "LOW" between bracket and the name of colour is to indicate that must turn off, then "HIGH" between the bracket is
   to show that the name of the colour chosen must be turn. Delay is used to fix how long the colour change to another LED.
   That is for how much LED that you have and so on.
+  
+  ![traffic_light_arduino](traffic_light_arduino.png)
