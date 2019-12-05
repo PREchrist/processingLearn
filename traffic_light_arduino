@@ -1,0 +1,41 @@
+Wednesday, December 4th 2019
+Today was a great day to show the level of course. So ongoing this test was for me appropriate to design a traffic light with
+Arduino which tou are going see the attached picture below. 
+I made this task with five 5 which turn on one after another one,back and forth.
+  i started with the design of useful commands:
+```
+int green = 10;
+int yellow = 9;
+int red = 8;
+int blue = 7;
+int black = 6;
+``` the fonction integer as usual is used to indicated that we are going use the numbers without any signs, th name of colour and the numbers is to indicate the adaptation 
+on the breadboard and the arduino.
+
+```void setup() {
+    pinMode(green, OUTPUT);
+    pinMode(yellow, OUTPUT);
+    pinMode(red, OUTPUT);
+    pinMode(blue, OUTPUT);
+    pinMode(black, OUTPUT);
+    ```   here setup is to indicate the colours and is combined by "pinMode" and "OUTPUT" behind the colours chosen.
+    
+    ten void loop to ndicate that the program should turn the colours after the time planned. here is the example
+    ```void loop() {
+  changeLight();
+  delay(2000);
+}```
+
+turn to the rythmn of the colours changement. To achieve this point we just need first to indicate how and when the colour 
+changed.
+```void changelight() {``` this is the first step before the structure of the colour changed.
+
+``` // green off, yellow on for 3 seconds
+  digitalWrite(green, LOW);
+  digitalWrite(yellow, HIGH);
+  delay(3000); ```
+  Alright this is how the contained of this program working. First between // indicate the started colours and the the second
+  with time of shine. use "DigitalWrite" to express when the one colour should tuen off and then another one on. 
+  To be done, "LOW" between bracket and the name of colour is to indicate that must turn off, then "HIGH" between the bracket is
+  to show that the name of the colour chosen must be turn. Delay is used to fix how long the colour change to another LED.
+  That is for how much LED that you have and so on.
