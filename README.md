@@ -60,3 +60,21 @@ for(int i=0;i<2;i++){
 
 ## program image on background
 ![code](code.png)
+
+
+
+Thursday, December 12th 2019
+
+TOPIC1 - SYSTEM FUNDAMENTALS
+
+#System life cycle:
+  Systematic process, know as a system life cycle, refers to the stages through which the development of a new system passes through. indeed, the system life cycle is constitued of six stages which are following each others: planning, design, development, testing, implementation and evaluation. each of these stages are complementary which means that without one we cannot talk about the SLC. By the way, to create a good software, it is important or mostly important not to jump one of each stages. It may be appropriate to say, the goal of the system life cycle acronym SLC is to create a software. In the followinfg articles, the figure1.1 shows a SLC especially for software whereas the figure1.2 presents it more general.
+  
+  Figure1.1: Software life cycle
+    Here the SLC works like the following steps show: Existing system analysis, then requirements specification, software design, software implementation, testing and debugging, new system installation and finally maintenance. As said on the top that this figure presents almost the SLC of software. It starts with the inspection of the old system or to say clear the existing one, then so on like quoted.
+    
+Figure1.2: System life cycle
+  this one is more short and usable whenever for the system life cycle, it is working like this: begin with make an analysis, after that it will be important to design the issue, implementation, operation and to finish with maintenance. By extension, some stages work by planning and analysing, then design the overview, so develop it and quickly evaluate it.
+  
+  1.1 Systems in organizations:
+    planning and system installation
