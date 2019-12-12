@@ -78,3 +78,5 @@ Figure1.2: System life cycle
   
   1.1 Systems in organizations:
     planning and system installation
+    
+    When we think about to create a new system, that is in order to replace the one that exist and which is inefficient, no longer prospitious to satisfy its original purpose, or else out-dated. The new system created, will take over the functuonalities. Its purpose will beto increase the productivy or the quality of the output or else minimize costs. What means the new system should reduce the flaws or errors of the existing one.  
