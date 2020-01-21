@@ -1,0 +1,30 @@
+Today we are Tuesday, January 21st 2020
+
+  I have a quick warm up which get hot my braind, think i am adapting day in and day out. So, for today, in was question to write a program C which design 10 numbers vectors. To be done, it was not like usually we proceed or go ahead that's mean we haven't a user and think have to be designed otherwise. 
+  Here down i have to post to codes for those programming.
+ 
+ #program1
+
+#include <stdio.h>
+
+// int main(void) {
+//   int myarray[10]={0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+
+//   for(int i=0; i<10; i++){
+//     printf("Element %d, %d\n", i, myarray[i]);
+
+//   }
+//   return 0;
+// }
+
+#program 2
+
+int main(void){
+  int myarray[10]={0,1,2,3,4,5,6,7,8,9};
+  
+  for(int i=0; i<10; i++){
+    printf("Element %i, %i\n",9-i, myarray[9-i]);
+  }
+
+  return 0;
+}
