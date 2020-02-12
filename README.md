@@ -83,3 +83,43 @@ Figure1.2: System life cycle
     
     1.1.2 The need for change management:
     change management is a process of shifting individuals, teams, departments and organizations from the prresent state to a desired state. Here the goal is to maximize the benefits and minimize the negative impacts of change on individuals.
+    
+    
+ WEDNESDAY, 12TH   
+  user = {'Username': None, 'password-hash': None, 'salt': None}
+
+print("1 - Register")
+print("2 - Log In")
+print("3 - Exit")
+
+opt = 10
+while opt > 13:
+    opt = int(input("Enter option (1, 2, or 3) "))
+
+#Registration
+username = input('Enter usrname: ')
+
+confirmed = False
+while not confirmed:
+    password = input('Enter password: ')
+    c_password = input("Confirm your password: ")
+
+    # confirmed = True if password == c_password else False
+    if password == c_password:
+        confirmed = True
+
+print("Password confirmed")
+import os
+import hashlib
+salt = os.urandom(32) # this creates a 32 bytes
+key = hashlib.pbkdf2_hmac('sha256', password.encode('utf-8'), salt, 1000)
+
+import binascii
+print(binascii.hexlify(key))
+
+STEPS REGISTER
+- input username
+-input password
+-input password confirmation
+-encoding of the password
+  "Hash Sha-256"
