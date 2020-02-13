@@ -172,3 +172,17 @@ print(totalSumPythonic)
 totalSum = 0
 for l in extract:
     totalSum += ord(l)
+    
+    
+FRIDAY,FEBRUARY 14TH
+
+I have a lot of pens and pencils in my room and sometimes a have a hard time finding the right pen and pencil that I need. It takes a few minutes to find what pen I’m looking for, so I require an easy inventory that allows me to choose any pen that I want without looking for it. The inventory that I want need to have different categories, There needs to be a category for color, price, brand, new/old, and a category for the pen/pencils that I use the most. Within the categories, there need to be classes for example, in color category, the classes could be like the different color that each pen writes. Another thing that I want my inventory to have is a search button so that I could get anything that I want quickly but the search button isn’t important if you make everything in the inventory easy to find. I want my inventory to belong to me and no one else could access it. 
+
+Here is the need o the pencils client, so it has to work like follow:
+1 easy way to choose any pen
+2 diffrent categories as quoted color, price, brand, new/old
+3 identification of the more use
+4 clarify pen colour
+5 implement search button
+6 private access
+7 suggestion: do you want an option to add new pen and remove the old whisch doesn not work at all?
