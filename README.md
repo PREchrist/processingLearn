@@ -123,3 +123,52 @@ STEPS REGISTER
 -input password confirmation
 -encoding of the password
   "Hash Sha-256"
+  
+  
+Thursday, february 13th 2020
+
+
+# read the text from the file
+file = open("text.txt", "r")
+
+extract = file.read()
+
+words = extract.split()
+print("number oSf words is {}".format(len(words)))
+
+
+keywords = ['house', 'worker', 'master', 'hard', 'responsible', 'skillful']
+for key in keywords:
+    print("checking word" + key + "in the text: found")
+    print(key in words)
+
+lengthOfText = len(extract)
+# using C thinking
+num_letters = 0
+for symbol in extract:
+    if symbol.isalpha():
+        num_letters = num_letters + 1
+print(f'There are  {num_letters} out of {lengthOfText} total characters')
+
+print(extract.capitalize())
+
+def checkLen(x):
+    if len(x)>5:
+        return True
+    else:
+        return False
+
+long_words = '# '.join(list(filter(lambda a: len(a)>5, words)))
+print(long_words)
+
+for word in words:
+    if len(word) > 5:
+        print('#' + word)
+
+from functools import reduce
+totalSumPythonic = reduce(lambda a,b: a+b, [ord(e) for e in extract])
+print(totalSumPythonic)
+
+totalSum = 0
+for l in extract:
+    totalSum += ord(l)
